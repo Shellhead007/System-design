@@ -1,3 +1,6 @@
 # System-design
-Here I will add basic and common system design interview questions
-asked in various tech companies for sde1 and sde2 roles.
+A curated list of System Design interview questions for SDE-1 (Experienced),SDE-2 and above.
+
+Targeted companies: Amazon, Google, Facebook and other biggies.
+
+Hope it helps you to prepare for interviews!
