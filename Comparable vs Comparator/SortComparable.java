@@ -22,8 +22,8 @@ class Movie implements Comparable<Movie> {
 	}
 	
 	public double getRating() { return rating; }
-    public String getName()   {  return name; }
-    public int getYear()      {  return year;  }
+	public String getName()   {  return name; }
+	public int getYear()      {  return year;  }
 }
 public class SortComparable {
 	public static void main(String args[]) {
@@ -48,5 +48,5 @@ public class SortComparable {
         						 list.get(i).getYear());
         }
  
-	}
+    }
 }
