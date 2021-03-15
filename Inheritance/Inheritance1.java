@@ -34,8 +34,8 @@ public class Inheritance {
 	public static void main(String args[]) {
 		A a = new B();                                // Reference in created using A class but object is created of class B.
 		a.display();
-		a.print();
-	}
+		a.print();				      // Call to static function depends upon the object reference not the type of object.	
+	}							
 }
 
 /* OUTPUT 
