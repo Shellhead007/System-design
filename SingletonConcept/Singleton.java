@@ -15,7 +15,7 @@ public class Singleton {
 		str = "Hello I am a string part of Singleton class"; 
 	}
 	
-	public static Singleton getInstance() {           // Lazy initialization (calling getinstance method only when it is needed to create object.
+	public synchronized static Singleton getInstance() {           // Lazy initialization (calling getinstance method only when it is needed to create object.
 		if(obj == null)
 			obj = new Singleton();
 		return obj;                              // If the object is created once, return the same object again.
